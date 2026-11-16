@@ -1,0 +1,91 @@
+{
+  "train_rows": 56096,
+  "test_rows": 13627,
+  "train_period": "2024-01-02 to 2025-12-23",
+  "test_period": "2026-01-02 to 2026-09-30",
+  "model": {
+    "mae_gbp": 50878,
+    "median_ape_pct": 13.7,
+    "within_20pct_share": 66.3,
+    "mean_error_gbp": -7523
+  },
+  "baseline": {
+    "mae_gbp": 60084,
+    "median_ape_pct": 15.8,
+    "within_20pct_share": 60.8,
+    "mean_error_gbp": -16305
+  },
+  "by_property_type": {
+    "D": {
+      "n": 2254,
+      "model": {
+        "mae_gbp": 97145,
+        "median_ape_pct": 16.7,
+        "within_20pct_share": 58.8,
+        "mean_error_gbp": -11890
+      },
+      "baseline": {
+        "mae_gbp": 115427,
+        "median_ape_pct": 19.1,
+        "within_20pct_share": 51.7,
+        "mean_error_gbp": -38368
+      }
+    },
+    "F": {
+      "n": 1706,
+      "model": {
+        "mae_gbp": 32736,
+        "median_ape_pct": 17.5,
+        "within_20pct_share": 56.3,
+        "mean_error_gbp": -3702
+      },
+      "baseline": {
+        "mae_gbp": 38551,
+        "median_ape_pct": 18.6,
+        "within_20pct_share": 53.3,
+        "mean_error_gbp": 4337
+      }
+    },
+    "S": {
+      "n": 5251,
+      "model": {
+        "mae_gbp": 46311,
+        "median_ape_pct": 12.6,
+        "within_20pct_share": 70.9,
+        "mean_error_gbp": -8898
+      },
+      "baseline": {
+        "mae_gbp": 54999,
+        "median_ape_pct": 14.5,
+        "within_20pct_share": 64.6,
+        "mean_error_gbp": -16712
+      }
+    },
+    "T": {
+      "n": 4416,
+      "model": {
+        "mae_gbp": 39701,
+        "median_ape_pct": 12.5,
+        "within_20pct_share": 68.5,
+        "mean_error_gbp": -5135
+      },
+      "baseline": {
+        "mae_gbp": 46200,
+        "median_ape_pct": 14.8,
+        "within_20pct_share": 63.7,
+        "mean_error_gbp": -12534
+      }
+    }
+  },
+  "permutation_importance_log_mae": {
+    "new_build": 0.0,
+    "month_idx": 0.0,
+    "district": 0.0005,
+    "lon": 0.0064,
+    "lat": 0.0081,
+    "tenure": 0.0348,
+    "outcode": 0.0468,
+    "neighbour_logp": 0.0711,
+    "type": 0.1083
+  }
+}
